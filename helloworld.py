@@ -1,2 +1,2 @@
-a=int(input())
-print("hello world \n"*a)
+c=int(input())
+print("hello \n"*c)
