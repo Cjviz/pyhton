@@ -1,2 +1,2 @@
-x = input()
-print(len(x))
+v = input()
+print(len(v))
