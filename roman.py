@@ -1,4 +1,4 @@
-def cj(a):
+def c(a):
     if(a=="I"):
         return 1
     if(a=="V"):
@@ -18,9 +18,9 @@ def cj(m):
     res=0
     p=0
     while(p<len(m)):
-        l1=cj(m[p])
+        l1=c(m[p])
         if(p+1<len(m)):
-            l2=cj(m[p+1])
+            l2=c(m[p+1])
             if(l1>=l2):
                 res=res+l1
                 p=p+1
